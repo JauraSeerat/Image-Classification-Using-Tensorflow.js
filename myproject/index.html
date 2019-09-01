@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://unpkg.com/@tensorflow/tfjs" type="text/javascript"></script>
+	<script src="https://unpkg.com/@tensorflow-models/mobilenet"></script>
+	<script src="https://unpkg.com/@tensorflow-models/knn-classifier"></script>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<title>Image Classification</title>
+</head>
+<body>
+	<h1>Tensorflow.js Classification Image demo</h1>
+	<div id="console"></div>
+
+	<!--  Image Classification
+	<img id="img" crossOrigin src="https://upload.wikimedia.org/wikipedia/commons/f/fe/Frangipani_flowers.jpg" width=227 height=227/>
+	--->
+
+	<video autoplay playsinline muted id="webcam" width="227" height="227"></video>
+	<br>
+	<button id="class-a">Add A</button>
+	<button id="class-b">Add B</button>
+	<button id="class-c">Add C</button>
+	<button id="noAction">No Action</button>
+	<script src="index.js"></script>
+	<br>
+	<footer>
+		Submitted By: Seeratpal K. Jaura
+	</footer>
+</body>
+</html>
